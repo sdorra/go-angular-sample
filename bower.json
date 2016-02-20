@@ -1,0 +1,45 @@
+{
+  "name": "cockpit",
+  "authors": [
+    "Sebastian Sdorra <s.sdorra@triology.de>"
+  ],
+  "description": "Cloudogu EcoSystem Cockpit",
+  "keywords": [
+    "cloudogu",
+    "eco",
+    "ecosystem",
+    "dashboard",
+    "adf"
+  ],
+  "license": "MIT",
+  "homepage": "http://cloudogu.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "bootstrap-sass": "~3.3.6",
+    "angular-ui-router": "ui-router#~0.2.18",
+    "angular-bootstrap": "~1.1.2"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "angular.js",
+        "angular-csp.css"
+      ]
+    },
+    "bootstrap-sass": {
+      "main": []
+    },
+    "jquery": {
+      "main": []
+    }
+  }
+}
