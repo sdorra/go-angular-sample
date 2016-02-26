@@ -1,9 +1,9 @@
 {
-  "name": "cockpit",
+  "name": "gas",
   "authors": [
-    "Sebastian Sdorra <s.sdorra@triology.de>"
+    "Sebastian Sdorra <s.sdorra@gmail.com>"
   ],
-  "description": "Cloudogu EcoSystem Cockpit",
+  "description": "Go Angular Sample",
   "keywords": [
     "cloudogu",
     "eco",
@@ -12,7 +12,7 @@
     "adf"
   ],
   "license": "MIT",
-  "homepage": "http://cloudogu.com",
+  "homepage": "http://github.com/sdorra/go-angular-sample",
   "private": true,
   "ignore": [
     "**/.*",

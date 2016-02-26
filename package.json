@@ -1,10 +1,10 @@
 {
-  "name": "cockpit",
-  "description": "Cloudogu EcoSystem Cockpit",
-  "author": "Sebastian Sdorra <s.sdorra@triology.de>",
+  "name": "gas",
+  "description": "Go Angular Sample",
+  "author": "Sebastian Sdorra <s.sdorra@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cloudogu/cockpit.git"
+    "url": "git://github.com/sdorra/go-angular-sample.git"
   },
   "license": "MIT",
   "devDependencies": {

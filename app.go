@@ -6,7 +6,7 @@ const ctxPath string = "/ga"
 
 func ping(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "pongo ongo!",
+		"message": "pong",
 	})
 }
 

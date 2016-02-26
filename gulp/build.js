@@ -15,7 +15,7 @@ module.exports = function(gulp, $, info, paths) {
 
   gulp.task('templates', function(){
     return gulp.src(paths.app + '/**/*.html')
-      .pipe($.angularTemplatecache({module: 'cockpit', root: 'app'}))
+      .pipe($.angularTemplatecache({module: info.name, root: 'app'}))
       .pipe(gulp.dest(paths.tmp + '/'));
   });
 
