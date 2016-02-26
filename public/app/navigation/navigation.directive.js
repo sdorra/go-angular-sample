@@ -4,7 +4,7 @@ angular
   .module('cockpit')
   .directive('gasNavigation', NavigationDirective);
 
-function NavigationDirective($location, navigation){
+function NavigationDirective($rootScope, $location, navigation){
 
   function NavigationController(){
     var vm = this;
@@ -21,6 +21,11 @@ function NavigationDirective($location, navigation){
       var currentRoute = $location.path();
       return page === currentRoute || new RegExp(page).test(currentRoute) ? 'active' : '';
     };
+
+    // change collapse state on navigation
+    $rootScope.$on('$stateChangeStart', function(){
+      vm.isCollapsed = true;
+    });
   };
 
   return {
