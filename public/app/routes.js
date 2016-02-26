@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('cockpit')
+  .module('gas')
   .config(ConfigureRoutes);
 
 function ConfigureRoutes($locationProvider, $stateProvider, $urlRouterProvider, navigationProvider){

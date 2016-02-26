@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('cockpit')
+  .module('gas')
   .provider('navigation', NavigationProvider);
 
 function NavigationProvider(){

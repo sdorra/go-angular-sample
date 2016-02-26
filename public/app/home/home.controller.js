@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('cockpit')
+  .module('gas')
   .controller('HomeController', HomeController);
 
 function HomeController(ping){

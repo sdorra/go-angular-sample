@@ -1,9 +1,9 @@
 'use strict';
 
 angular
-  .module('cockpit')
+  .module('gas')
   .config(ConfigureNotifications)
-  .run(ApplicationLoaded);
+  .run(RuntimeNotifications);
 
 function ConfigureNotifications(toastrConfig){
   angular.extend(toastrConfig, {
@@ -11,6 +11,6 @@ function ConfigureNotifications(toastrConfig){
   });
 }
 
-function ApplicationLoaded(toastr){
+function RuntimeNotifications(toastr){
   toastr.info('Application loaded', 'Information');
 }

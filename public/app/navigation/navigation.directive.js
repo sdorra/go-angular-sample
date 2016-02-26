@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('cockpit')
+  .module('gas')
   .directive('gasNavigation', NavigationDirective);
 
 function NavigationDirective($rootScope, $location, navigation){

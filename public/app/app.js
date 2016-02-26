@@ -1,4 +1,9 @@
 'use strict';
 
 angular
-  .module('cockpit', ['ui.bootstrap', 'ui.router', 'ngAnimate', 'toastr']);
+  .module('gas', [
+    'ui.bootstrap',
+    'ui.router',
+    'ngAnimate',
+    'toastr'
+  ]);
