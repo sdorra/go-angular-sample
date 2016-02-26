@@ -36,7 +36,7 @@ module.exports = function(gulp, $, info, paths) {
 
       gulp.watch([
         paths.styles + '/**/*.scss',
-        paths.scripts + '/**/*.js',
+        paths.app + '/**/*.js',
         paths.src + '/**/*.html'],
         ['inject']
       );
