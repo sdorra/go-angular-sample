@@ -4,7 +4,17 @@ angular
   .module('cockpit')
   .config(ConfigureRoutes);
 
-function ConfigureRoutes($locationProvider, $stateProvider, $urlRouterProvider){
+function ConfigureRoutes($locationProvider, $stateProvider, $urlRouterProvider, navigationProvider){
+
+  navigationProvider.link({
+    href: 'home',
+    label: 'Home'
+  })
+  .link({
+    href: 'about',
+    label: 'About'
+  });
+
   $locationProvider.html5Mode(true);
 
   $urlRouterProvider.otherwise("/home")
