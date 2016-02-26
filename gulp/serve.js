@@ -5,7 +5,7 @@ module.exports = function(gulp, $, info, paths) {
   var redirector = function(req, res, next){
     if (req.url === '/'){
       res.writeHead(301, {
-        "Location": "/ga/"
+        "Location": "/gas/"
       });
       res.end();
     } else {

@@ -2,7 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 
-const ctxPath string = "/ga"
+const ctxPath string = "/gas"
 
 func ping(c *gin.Context) {
 	c.JSON(200, gin.H{
